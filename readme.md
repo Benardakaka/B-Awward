@@ -4,7 +4,7 @@
 
 
 ## Description
-The application will allows a user to post a project he/she has created and get it reviewed by his/her peers.
+This is a Website application that allows the user to post a project he/she has created and get it reviewed by his/her peers.
 
 As a user of the web application you will be able to:
 
