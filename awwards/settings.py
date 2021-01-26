@@ -17,7 +17,7 @@ import cloudinary.uploader
 import cloudinary.api
 
 import os
-# import django_heroku
+import django_heroku
 import dj_database_url
 from decouple import config,Csv
 
@@ -160,6 +160,7 @@ USE_L10N = True
 
 USE_TZ = True
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
@@ -176,7 +177,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 # Configure Django App for Heroku.
-# django_heroku.settings(locals())
+django_heroku.settings(locals())
 
 cloudinary.config( 
   cloud_name = "dvt3d0x7d", 
