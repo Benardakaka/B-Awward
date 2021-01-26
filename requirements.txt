@@ -1,6 +1,5 @@
 asgiref==3.3.1
 certifi==2020.11.8
-check-requirements-txt==1.0.2
 cloudinary==1.23.0
 confusable-homoglyphs==3.2.0
 dj-database-url==0.5.0

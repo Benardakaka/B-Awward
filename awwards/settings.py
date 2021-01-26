@@ -120,7 +120,7 @@ WSGI_APPLICATION = 'awwards.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'awwards',
+        'NAME': 'awward',
         'USER':'moringa',
         'PASSWORD':'20302000b'
     }
@@ -160,13 +160,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-#ratings
-# STAR_RATINGS_RERATE = False
-# STAR_RATINGS_RANGE 
-# STAR_RATINGS_ANONYMOUS = True
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.1/howto/static-files/
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
